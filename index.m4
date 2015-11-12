@@ -2,7 +2,7 @@ m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenges')
 
-<p>Contrived by Dennis Yurichev (<i>dennis(a)yurichev.com</i>).</p>
+<p>Contrived by Dennis Yurichev (_HTML_LINK(`http://yurichev.com',`yurichev.com')).</p>
 
 <p>The website has been inspired by _HTML_LINK(`http://projecteuler.net/',`Project Euler') and 
 _HTML_LINK(`http://cryptopals.com/',`"the matasano crypto challenges"').</p>
