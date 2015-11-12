@@ -28,7 +28,7 @@ The key file contain a user (or customer) name and a serial number.</p>
 <li> _HTML_LINK(`files/super_mega_protection.tar',`Linux x86')
 <li> _HTML_LINK(`files/super_mega_protection_MacOSX.tar',`Mac OS X (x64)')
 <li> _HTML_LINK(`files/super_mega_protection_MIPS.tar',`Linux MIPS')
-<li> Key file: _HTML_LINK_AS_IS(`files/sample.key')
+<li> Key file: _HTML_LINK(`files/sample.key',`sample.key')
 </ul>
 
 _CHALLENGE_FOOTER()
