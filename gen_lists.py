@@ -1,10 +1,22 @@
-import os, frobenoid
+import os
+
+def get_text_file_contents_as_array (filename):
+    f=open(filename,"r")
+    ar=f.readlines()
+    f.close()
+
+    new_ar=[item.rstrip() for item in ar]
+    return new_ar
+
+# may be slow
+def is_elem_last_in_list (lst, elem):
+    return elem==lst[-1]
 
 total=73
 
 def save_list_as_HTML(f, v, names):
     for i in v:
-        if frobenoid.is_elem_last_in_list(v, i):
+        if is_elem_last_in_list(v, i):
             sep="."
         else:
             sep="; "
@@ -38,7 +50,7 @@ for i in range(total):
                 lists[f]=[]
             lists[f].append(n)
         if f=="NAME":
-            names[n]="".join(frobenoid.get_text_file_contents_as_array(str(n)+"/"+f))
+            names[n]="".join(get_text_file_contents_as_array(str(n)+"/"+f))
     
 for tag in lists:
     print tag, lists[tag]
