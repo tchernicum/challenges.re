@@ -114,7 +114,7 @@ and I eventually decided to keep them all in one single place like this website,
 
 <p>
 The source code of this website is also available at GitHub: _HTML_LINK_AS_IS(`https://github.com/dennis714/challenges.re').
-I would love to get any suggestions and notices about misspelings and typos.
+I would love to get any suggestions and notices about misspellings and typos.
 </p>
 
 _HL2(`Exercise numbers')
