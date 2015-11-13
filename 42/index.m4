@@ -6,7 +6,7 @@ _HEADER_HL1(`Reverse Engineering challenge #42.')
 \RU{Попробуйте её идентифицировать}
 -->
 <p>There is a small executable file with a well-known cryptosystem inside.
-Yry to identify it.</p>
+Try to identify it.</p>
 
 <ul>
 <li> _HTML_LINK(`files/unknown_cryptosystem.exe',`Windows x86')
