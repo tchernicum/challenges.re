@@ -142,7 +142,7 @@ _HL2(`Solutions')
 
 <p>Some computer science/programming books has solutions for exercises 
 (like _HTML_LINK(`https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming',`TAOCP')), 
-some are not (_HTML_LINK(`https://en.wikipedia.org/wiki/The_C_Programming_Language',`K&R'), 
+some has not (_HTML_LINK(`https://en.wikipedia.org/wiki/The_C_Programming_Language',`K&R'), 
 _HTML_LINK(`https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs',`SICP'), 
 _HTML_LINK(`https://www.inf.ethz.ch/personal/wirth/AD.pdf',`Niklaus Wirth - "Algorithms and Data Structures"'), 
 _HTML_LINK(`https://en.wikipedia.org/wiki/The_Practice_of_Programming',`Brian Kernighan/Rob Pike - The Practice of Programming"') to name a few).</p>
