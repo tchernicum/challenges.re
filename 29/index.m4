@@ -10,7 +10,7 @@ Try to find out what it does.</p>
 <p>Multiple visitors complained the file has malware. It may be false positive. Or maybe my patched Tiny C compiler was used by some malware authors.
 So the file is now packed by RAR with the password "obfuscation".</p>
 
-<p>_HTML_LINK(`files/obfuscation.exe',`obfuscation.exe')</p>
+<p>_HTML_LINK(`files/obfuscation.rar',`obfuscation.rar')</p>
 
 _CHALLENGE_FOOTER()
 
