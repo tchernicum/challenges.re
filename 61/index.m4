@@ -1,7 +1,7 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #61.')
 
-<p>What this code does?</p>
+<p>What does this code do?</p>
 
 _HL2(`Optimizing MSVC 2010')
 

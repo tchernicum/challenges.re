@@ -3,9 +3,9 @@ m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #17.')
 
 <p>
-This is quite esoteric piece of code, but nonetheless, the task it does is very mundane and well-known to anyone.
-The function has 4 64-bit arguments and returns also 64-bit one.
-What it does?
+This is a quite esoteric piece of code, but nevertheless, the task it does is very mundane and well-known to anyone.
+The function has 4 64-bit arguments and returns a 64-bit one.
+What does it do?
 </p>
 
 <p>Optimizing GCC 4.8.2:</p>

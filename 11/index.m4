@@ -2,11 +2,11 @@ m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #11.')
 
-<p>This is somewhat large function (in contrast to other exercises in this blog), but heavily used nowadays in various software.
+<p>This is a somewhat large function (in contrast to the other exercises in this blog), but heavily used nowadays in various software.
 As it can be clearly seen, it uses standard C/C++ functions including strlen() and sscanf().
 Some other helper function is also used.
 I intentionally gave it this name to conceal its real function.
-So what the whole code snippet does?</p>
+So what does the whole code snippet do?</p>
 
 <p>GCC 4.8.2 with -Os option (generate smallest possible code):</p>
 

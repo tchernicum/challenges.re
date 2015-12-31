@@ -4,9 +4,9 @@ _HEADER_HL1(`Reverse Engineering challenge #18.')
 
 <p>
 Now this is easy.
-Keep in mind, the code is 64-bit one, because it uses 64-bit value(s).
+Keep in mind, the code is 64-bit, because it uses 64-bit value(s).
 That is why I've omitted code fragments for 32-bit ARM and MIPS.
-So what it does?
+So what does it do?
 </p>
 
 <p>Optimizing GCC 4.8.2 for x64:</p>

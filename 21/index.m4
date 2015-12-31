@@ -4,7 +4,7 @@ _HEADER_HL1(`Reverse Engineering challenge #21.')
 
 <p>
 This is easy.
-What the following code does?
+What does the following code do?
 </p>
 
 _HL3(`Optimizing GCC 4.8.2 for x64')

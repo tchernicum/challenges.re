@@ -4,7 +4,7 @@ _HEADER_HL1(`Reverse Engineering challenge #32.')
 <!-- \RU{Это стандартная функция из библиотек Си. Исходник взят из MSVC 2010.} -->
 
 <p>This is a standard C library function. The source code is taken from MSVC 2010.
-What this code does?</p>
+What does this code do?</p>
 
 _HL2(`Optimizing MSVC 2010')
 

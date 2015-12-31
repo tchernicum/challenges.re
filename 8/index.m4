@@ -2,10 +2,10 @@ m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #8.')
 
-<p>What this code does?
+<p>What does this code do?
 This is one of the busiest algorithms under the hood, though, usually hidden from programmers.
 It implements one of the most popular algorithms in computer science.
-It features recursion and callback function.</p>
+It features recursion and a callback function.</p>
 
 <p>Optimizing GCC 4.8.2:</p>
 

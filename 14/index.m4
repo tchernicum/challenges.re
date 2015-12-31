@@ -2,7 +2,7 @@ m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #14.')
 
-<p>Now that's easy. What this code does?</p>
+<p>Now that's easy. What does this code do?</p>
 
 <p>Optimizing csc .NET compiler from MSVS 2015 (/o switch), ildasm output:</p>
 

@@ -2,7 +2,7 @@
 
 _HEADER_HL1(`Reverse Engineering challenge #27.')
 
-<p>What this code does?</p>
+<p>What does this code do?</p>
 
 <p>Optimizing MSVC 2010:</p>
 
