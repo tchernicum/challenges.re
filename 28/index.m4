@@ -1,7 +1,7 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #28.')
 
-<p> What the following code does?  </p>
+<p> What does the following code do?  </p>
 
 _HL2(`Optimizing GCC 4.8.2 for x64')
 

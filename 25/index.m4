@@ -2,7 +2,7 @@ m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #25 (black box).')
 
-<p>It's a secret algorithm hidden inside of a black box (for example, smart card).
+<p>It's a secret algorithm hidden inside of a black box (e.g. a smart card).
 It's not possible to reveal it (well, at least, let's say, using our current hypothetical budget).
 But we can send a lot of random data to it and observe responses.</p>
 

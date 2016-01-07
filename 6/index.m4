@@ -2,7 +2,7 @@ m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #6.')
 
-<p>What this code does?
+<p>What does this code do?
 This is one of the simplest exercises I made, but still this code can be served as useful library function 
 and is certainly used in many modern real-world applications.</p>
 

@@ -25,7 +25,7 @@ _HL2(`By level')
 <li><p>Level 3: m4_include(`L3.html') </p>
 </ul>
 
-<p>Disctinction between levels is very blurred and not very strict, so don't rely on them fully.
+<p>Distinction between levels is very blurred and not very strict, so don't rely on them fully.
 But feel free to send me recommendations about them.
 I would love to _HTML_LINK(`http://yurichev.com/contacts.html',`hear comments') like "it was so easy/hard" or "I've spent 2 hours for this",
 so I can gather some statistics about exercises and promote/demote them.</p>
@@ -43,7 +43,7 @@ _HL2(`By type')
 2) Перепишите эту функцию на \CCpp
 -->
 
-There are two questions almost for every exercise like this, if not specified otherwise.
+There are two questions for almost every exercise similar to the following (unless otherwise specified):
 1) What does this function do? Try to give one-sentence answer.
 2) Rewrite this function into C/C++.
 

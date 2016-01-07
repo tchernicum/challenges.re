@@ -3,7 +3,7 @@ m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #10.')
 
 <p>This code snippet is short, but tricky.
-What it does?
+What does it do?
 It's used heavily in low-level programming and is well-known to many low-level programmers.
 There are several ways to calculate it, and this is the one of them.</p>
 

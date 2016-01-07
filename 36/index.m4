@@ -6,7 +6,7 @@ _HEADER_HL1(`Reverse Engineering challenge #36.')
 
 <p>A well-known algorithm again.
 What does it do?
-Take also notice that the code for x86 uses FPU, but SIMD instructions are used instead in x64 code.
+Also, take notice that the code for x86 uses FPU, but SIMD instructions are used instead in the x64 code.
 That's OK.</p>
 
 _HL2(`Optimizing MSVC 2012 x64')

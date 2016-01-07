@@ -3,7 +3,7 @@ m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #26.')
 
 <p>
-What the following code does?
+What does the following code do?
 </p>
 
 _HL2(`csc .NET compiler (MSVS 2010), ildasm output')
