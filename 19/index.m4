@@ -4,7 +4,7 @@ _HEADER_HL1(`Reverse Engineering challenge #19.')
 
 <p>
 This is tricky.
-The algorithm is well-known in computer science, but probably not to wide public.
+The algorithm is well-known in computer science, but probably not to the general public.
 The task it does is high demand and very mundane.
 </p>
 

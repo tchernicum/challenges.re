@@ -3,7 +3,7 @@ m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #24.')
 
 <p>
-Here is a simplest possible calculator program, simplified version of _HTML_LINK(`https://en.wikipedia.org/wiki/Bc_%28programming_language%29',`bc UNIX utility'):
+Here is the simplest possible calculator program, simplified version of _HTML_LINK(`https://en.wikipedia.org/wiki/Bc_%28programming_language%29',`bc UNIX utility'):
 </p>
 
 _PRE_BEGIN

@@ -2,7 +2,7 @@ m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #15.')
 
-<p>Now that's really easy. What this code does?</p>
+<p>Now that's really easy. What does this code do?</p>
 
 <p>Optimizing clang 3.4, LLVM 3.4, AT&T syntax:</p>
 

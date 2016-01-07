@@ -2,7 +2,7 @@ m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #13.')
 
-<p>What this SSE code does?</p>
+<p>What does this SSE code do?</p>
 
 <p>Optimizing GCC 4.8.2:</p>
 

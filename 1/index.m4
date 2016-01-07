@@ -2,7 +2,7 @@ m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #1.')
 
-<p>What this code does? The function has 4 arguments, it is compiled by GCC for Linux x64 ABI (i.e., arguments are passed in registers).</p>
+<p>What does this code do? The function has 4 arguments and it is compiled by GCC for Linux x64 ABI (i.e., arguments are passed in registers).</p>
 
 _PRE_BEGIN
 &lt;f>:

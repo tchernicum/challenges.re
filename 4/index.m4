@@ -2,9 +2,9 @@ m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #4.')
 
-<p>What this code does?</p>
+<p>What does this code do?</p>
 
-<p>Some versions has 0x1010101 constant, some are not. Why?</p>
+<p>Some versions have the 0x1010101 constant, some do not. Why?</p>
  
 <p>Optimizing GCC 4.8.2:</p>
 
