@@ -3,7 +3,7 @@ _HEADER_HL1(`Reverse Engineering challenge #76.')
 
 <p>
 These 3 functions operates on <a href="https://en.wikipedia.org/wiki/Fixed-point_arithmetic">fixed-point numbers</a>.
-Try to find out, what does these functions do, and <a href="https://en.wikipedia.org/wiki/Q_%28number_format%29">precision of numbers</a>.
+Try to find out, what does these functions do, and also <a href="https://en.wikipedia.org/wiki/Q_%28number_format%29">precision</a>.
 </p>
 
 <ul>
