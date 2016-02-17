@@ -76,6 +76,9 @@ default: 1/index.html \
 	73/index.html \
 	74/index.html \
 	75/index.html \
+	76/index.html \
+	77/index.html \
+	78/index.html \
 	index.html 
 
 all: default 
@@ -158,4 +161,7 @@ clean:
 	rm 73/index.html 
 	rm 74/index.html 
 	rm 75/index.html 
+	rm 76/index.html 
+	rm 77/index.html 
+	rm 78/index.html 
 
