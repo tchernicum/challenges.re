@@ -59,7 +59,7 @@ $LN4@f:
 _f	ENDP
 _PRE_END
 
-_HL2(`Non-OptimizingcKeil 6 (ARM Mode)')
+_HL2(`Non-Optimizing Keil 6 (ARM Mode)')
 
 _PRE_BEGIN
 f PROC
