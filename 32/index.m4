@@ -6,61 +6,60 @@ _HEADER_HL1(`Reverse Engineering challenge #32.')
 <p>This is a standard C library function. The source code is taken from MSVC 2010.
 What does this code do?</p>
 
-_HL2(`Optimizing MSVC 2010')
+_HL2(`Optimizing MSVC 2013 (x64)')
 
 _PRE_BEGIN
-PUBLIC    _f
-_TEXT    SEGMENT
-_arg1$ = 8            ; size = 4
-_arg2$ = 12           ; size = 4
-_f    PROC
-    push   esi
-    mov    esi, DWORD PTR _arg1$[esp]
-    push   edi
-    mov    edi, DWORD PTR _arg2$[esp+4]
-    cmp    BYTE PTR [edi], 0
-    mov    eax, esi
-    je     SHORT $LN7@f
-    mov    dl, BYTE PTR [esi]
-    push   ebx
-    test   dl, dl
-    je     SHORT $LN4@f
-    sub    esi, edi
-    npad   6 ; align next label
+PUBLIC	f
+_TEXT	SEGMENT
+arg1$ = 8
+arg2$ = 16
+f	PROC
+	cmp	BYTE PTR [rdx], 0
+	mov	r10, rdx
+	mov	r9, rcx
+	jne	SHORT $LN9@f
+	mov	rax, rcx
+	ret	0
+$LN9@f:
+	movzx	ecx, BYTE PTR [rcx]
+	test	cl, cl
+	je	SHORT $LN4@f
+	mov	r8, r9
+	sub	r8, rdx
+	npad	4
 $LL5@f:
-    mov    ecx, edi
-    test   dl, dl
-    je     SHORT $LN2@f
+	mov	rax, r10
+	test	cl, cl
+	je	SHORT $LN2@f
 $LL3@f:
-    mov    dl, BYTE PTR [ecx]
-    test   dl, dl
-    je     SHORT $LN14@f
-    movsx  ebx, BYTE PTR [esi+ecx]
-    movsx  edx, dl
-    sub    ebx, edx
-    jne    SHORT $LN2@f
-    inc    ecx
-    cmp    BYTE PTR [esi+ecx], bl
-    jne    SHORT $LL3@f
+	movzx	ecx, BYTE PTR [rax]
+	test	cl, cl
+	je	SHORT $LN11@f
+	movsx	edx, BYTE PTR [r8+rax]
+	movsx	ecx, cl
+	cmp	edx, ecx
+	jne	SHORT $LN2@f
+	inc	rax
+	cmp	BYTE PTR [r8+rax], 0
+	jne	SHORT $LL3@f
 $LN2@f:
-    cmp    BYTE PTR [ecx], 0
-    je     SHORT $LN14@f
-    mov    dl, BYTE PTR [eax+1]
-    inc    eax
-    inc    esi
-    test   dl, dl
-    jne    SHORT $LL5@f
-    xor    eax, eax
-    pop    ebx
-    pop    edi
-    pop    esi
-    ret    0
-_f    ENDP
-_TEXT    ENDS
-END
+	cmp	BYTE PTR [rax], 0
+	je	SHORT $LN11@f
+	movzx	ecx, BYTE PTR [r9+1]
+	inc	r9
+	inc	r8
+	test	cl, cl
+	jne	SHORT $LL5@f
+$LN4@f:
+	xor	eax, eax
+	ret	0
+$LN11@f:
+	mov	rax, r9
+	ret	0
+f	ENDP
 _PRE_END
 
-_HL2(`GCC 4.4.1')
+_HL2(`GCC 4.4.1 (x86)')
 
 _PRE_BEGIN
                 public f
