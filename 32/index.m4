@@ -319,5 +319,7 @@ locret_94:                               # CODE XREF: f+20
                 move    $v0, $zero
 _PRE_END
 
+<p>It had a bug which was fixed 21-Apr-2016, thanks to Diego Boy.</p>
+
 _CHALLENGE_FOOTER()
 
