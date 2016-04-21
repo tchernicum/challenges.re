@@ -1,6 +1,6 @@
 m4_include(`commons.m4')
 
-_HEADER_HL1(`Reverse Engineering challenge #?80')
+_HEADER_HL1(`Reverse Engineering challenge #80.')
 
 <p>What does this code do?</p>
 
