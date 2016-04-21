@@ -24,7 +24,7 @@ _PRE_END
 
 <ul>
 <li>Easy: by patching, turn on/off all 5 features.
-<li>Mediumr: generate a serial number with arbitrary features turned on/off.
+<li>Medium: generate a serial number with arbitrary features turned on/off.
 <li>Hard: make your own keygen.
 </ul>
 

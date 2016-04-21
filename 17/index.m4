@@ -4,7 +4,7 @@ _HEADER_HL1(`Reverse Engineering challenge #17.')
 
 <p>
 This is a quite esoteric piece of code, but nevertheless, the task it does is very mundane and well-known to anyone.
-The function has 4 64-bit arguments and returns a 64-bit one.
+The function has 4 32-bit arguments and returns a 32-bit one.
 What does it do?
 </p>
 
@@ -31,6 +31,8 @@ f:
         add     eax, edi
         ret
 _PRE_END
+
+<p>It had a bug which was fixed 21-Apr-2016, thanks to Diego Boy.</p>
 
 _CHALLENGE_FOOTER()
 

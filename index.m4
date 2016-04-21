@@ -197,6 +197,10 @@ _HL2(`Updates/news')
 and/or twitter: _HTML_LINK(`https://twitter.com/yurichev',`@yurichev') 
 and/or _HTML_LINK(`https://www.facebook.com/dennis.yurichev.5',`facebook').</p>
 
+_HL2(`Thanks')
+
+<p>Thanks to Diego Boy and Niklas for bugfixes.</p>
+
 _HL2(`Contact me')
 
 <p>_HTML_LINK_AS_IS(`http://yurichev.com/contacts.html')</p>
