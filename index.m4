@@ -131,10 +131,18 @@ _HL2(`Duplicates')
 Or maybe it is implemented for different architectures (x86 and Java VM/.NET).
 That's OK.</p>
 
-_HL2(`Can I use Google?')
+_HL2(`FAQ')
+
+_HL3(`Can I use Google?')
 
 <p>It's up to you. I would first try to solve exercise without googling.
 If I would stuck, I would try to google some constants, text messages, etc.</p>
+
+_HL3(`Should I give low-level answer (what each instruction does) or high-level (what the function does)?')
+
+<p>As highest as possible.
+In fact, reverse engineer's job is to reduce amount of information he/she has.
+Malware analyst should describe a specific piece of malware using couple of sentences, no one really interesting what each of its several thousand instructions does.</p>
 
 _HL2(`Solutions')
 
