@@ -144,6 +144,31 @@ _HL3(`Should I give low-level answer (what each instruction does) or high-level 
 In fact, reverse engineer's job is to reduce amount of information he/she has.
 Malware analyst should describe a specific piece of malware using couple of sentences, no one really interesting what each of its several thousand instructions does.</p>
 
+_HL3(`How can I measure my performance?')
+
+<ul>
+<li><p>As far as I can realize, If reverse engineer can solve most of these exercises, he is a hot target for head hunters (programming jobs in general).</p>
+
+<li><p>Those who can solve from ¼ to ½ of all levels, perhaps, can freely apply for reverse engineering/malware analysts/vulnerability research job positions.</p>
+
+<li><p>If you feel even first level is too hard for you, you may probably drop the idea to learn RE.</p>
+</ul>
+
+_HL3(`How can I learn Reverse Engineering?')
+
+<p>Here is my book for beginners: _HTML_LINK_AS_IS(`http://beginners.re/').</p>
+
+_HL3(`Can I use these exercises for my teaching?')
+
+<p>Yes, that is why they are (and this website as a whole) licensed under Creative Commons terms (CC-NC-ND), 
+like _HTML_LINK(`http://beginners.re/',`my book about RE for beginners').</p>
+
+<center>
+<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+<img src="by-nc-nd-88x31.png">
+</a>
+</center>
+
 _HL2(`Solutions')
 
 <p>I made decision not to publish solutions.</p>
@@ -173,31 +198,6 @@ _HTML_LINK_AS_IS(`https://www.reddit.com/r/haskell/comments/1fa8br/matasano_cryp
 (please also put exercise number in subject line like "exercise #123").
 If you don't want to reveal your name/email, you may use _HTML_LINK(`https://bitmessage.org/',`BitMessage') 
 (my ID is <b>BM-2cUyrfGUDyjuUHyzAA63kq5NHAB2zMo4Q2</b>) and a temporary throw-away ID.</p>
-
-_HL2(`How can I measure my performance?')
-
-<ul>
-<li><p>As far as I can realize, If reverse engineer can solve most of these exercises, he is a hot target for head hunters (programming jobs in general).</p>
-
-<li><p>Those who can solve from ¼ to ½ of all levels, perhaps, can freely apply for reverse engineering/malware analysts/vulnerability research job positions.</p>
-
-<li><p>If you feel even first level is too hard for you, you may probably drop the idea to learn RE.</p>
-</ul>
-
-_HL2(`How can I learn Reverse Engineering?')
-
-<p>Here is my book for beginners: _HTML_LINK_AS_IS(`http://beginners.re/').</p>
-
-_HL2(`Can I use these exercises for my teaching?')
-
-<p>Yes, that is why they are (and this website as a whole) licensed under Creative Commons terms (CC-NC-ND), 
-like _HTML_LINK(`http://beginners.re/',`my book about RE for beginners').</p>
-
-<center>
-<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
-<img src="by-nc-nd-88x31.png">
-</a>
-</center>
 
 _HL2(`Updates/news')
 
