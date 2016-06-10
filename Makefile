@@ -1,7 +1,7 @@
 .SUFFIXES: .m4 .html
 .m4.html:
 	m4 -P $*.m4 >$*.html
-default: 1/index.html \
+HTML_FILES=1/index.html \
 	2/index.html \
 	3/index.html \
 	4/index.html \
@@ -83,93 +83,35 @@ default: 1/index.html \
 	80/index.html \
 	81/index.html \
 	82/index.html \
+	83/index.html \
+	84/index.html \
+	85/index.html \
+	86/index.html \
 	index.html 
 
-all: default 
+all:	$(HTML_FILES) 
 	python gen_lists.py
 
 clean: 
-	rm *.html
-	rm 1/index.html
-	rm 2/index.html
-	rm 3/index.html
-	rm 4/index.html
-	rm 5/index.html
-	rm 6/index.html
-	rm 7/index.html
-	rm 8/index.html
-	rm 9/index.html
-	rm 10/index.html
-	rm 11/index.html
-	rm 12/index.html
-	rm 13/index.html
-	rm 14/index.html
-	rm 15/index.html
-	rm 16/index.html
-	rm 17/index.html
-	rm 18/index.html
-	rm 19/index.html
-	rm 20/index.html
-	rm 21/index.html
-	rm 22/index.html
-	rm 23/index.html 
-	rm 24/index.html 
-	rm 25/index.html 
-	rm 26/index.html 
-	rm 27/index.html 
-	rm 28/index.html 
-	rm 29/index.html 
-	rm 30/index.html 
-	rm 31/index.html 
-	rm 32/index.html 
-	rm 33/index.html 
-	rm 34/index.html 
-	rm 35/index.html 
-	rm 36/index.html 
-	rm 37/index.html 
-	rm 38/index.html 
-	rm 39/index.html 
-	rm 40/index.html 
-	rm 41/index.html 
-	rm 42/index.html 
-	rm 43/index.html 
-	rm 44/index.html 
-	rm 45/index.html 
-	rm 46/index.html 
-	rm 47/index.html 
-	rm 48/index.html 
-	rm 49/index.html 
-	rm 50/index.html 
-	rm 51/index.html 
-	rm 52/index.html 
-	rm 53/index.html 
-	rm 54/index.html 
-	rm 55/index.html 
-	rm 56/index.html 
-	rm 57/index.html 
-	rm 58/index.html 
-	rm 59/index.html 
-	rm 60/index.html 
-	rm 61/index.html 
-	rm 62/index.html 
-	rm 63/index.html 
-	rm 64/index.html 
-	rm 65/index.html 
-	rm 66/index.html 
-	rm 67/index.html 
-	rm 68/index.html 
-	rm 69/index.html 
-	rm 70/index.html 
-	rm 71/index.html 
-	rm 72/index.html 
-	rm 73/index.html 
-	rm 74/index.html 
-	rm 75/index.html 
-	rm 76/index.html 
-	rm 77/index.html 
-	rm 78/index.html 
-	rm 79/index.html
-	rm 80/index.html
-	rm 81/index.html
-	rm 82/index.html
+	rm $(HTML_FILES)
+	rm CLR.html
+	rm JVM.html
+	rm X86.html
+	rm X64.html
+	rm MIPS.html
+	rm ARM.html
+	rm ARM64.html
+	rm SSE.html
+	rm FPU.html
+	rm L1.html
+	rm L2.html
+	rm L3.html
+	rm ASM.html
+	rm EXEC.html
+	rm WINDOWS.html
+	rm LINUX.html
+	rm MACOSX.html
+	rm RASPBERRY.html
+	rm CRYPTO.html
+	rm CRACKME.html
 

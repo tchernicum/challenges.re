@@ -12,7 +12,7 @@ def get_text_file_contents_as_array (filename):
 def is_elem_last_in_list (lst, elem):
     return elem==lst[-1]
 
-total=82
+total=86
 
 def save_list_as_HTML(f, v, names):
     for i in v:
