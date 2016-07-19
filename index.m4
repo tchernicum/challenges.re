@@ -160,12 +160,12 @@ _HL3(`How can I learn Reverse Engineering?')
 
 _HL3(`Can I use these exercises for my teaching?')
 
-<p>Yes, that is why they are (and this website as a whole) licensed under Creative Commons terms (CC-NC-ND), 
+<p>Yes, that is why they are (and this website as a whole) licensed under Creative Commons terms (CC BY-SA 4.0),
 like _HTML_LINK(`http://beginners.re/',`my book about RE for beginners').</p>
 
 <center>
-<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
-<img src="by-nc-nd-88x31.png">
+<a href="http://creativecommons.org/licenses/by-sa/4.0/">
+<img src="CC-BY-SA_3_icon_88x31.png">
 </a>
 </center>
 
