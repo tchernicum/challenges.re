@@ -21,6 +21,12 @@ _main	PROC
 _main	ENDP
 _PRE_END
 
+<p>
+Additional question: why MSVC replaced time() with time64()?
+Is it correct? Dangerous?
+What printf() will print after year 2038?
+</p>
+
 _HL2(`Optimizing Keil 6 (ARM Mode)')
 
 _PRE_BEGIN
