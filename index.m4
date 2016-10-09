@@ -207,7 +207,7 @@ and/or _HTML_LINK(`https://www.facebook.com/dennis.yurichev.5',`facebook').</p>
 
 _HL2(`Thanks')
 
-<p>Thanks to Diego Boy and Niklas for bugfixes.</p>
+<p>Thanks to Diego Boy, Wolfgang Reiter and Niklas for bugfixes.</p>
 
 _HL2(`Contact me')
 
