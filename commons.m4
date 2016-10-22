@@ -30,7 +30,7 @@ m4_define(`_HEADER_HL1', `_HEADER(`$1')_HL1(`$1')')
 m4_define(`_PRE_BEGIN',`<pre class="normal"><span class="inner-pre" style="font-size: 13px">')
 m4_define(`_PRE_END',`</pre>')
 
-m4_define(`_CHALLENGE_FOOTER',`<p>More challenges: _HTML_LINK_AS_IS(`//challenges.re/'); about solutions: _HTML_LINK_AS_IS(`//challenges.re/#Solutions').</p>
+m4_define(`_CHALLENGE_FOOTER',`<p>More challenges: _HTML_LINK(`//challenges.re/',`challenges.re'); about solutions: _HTML_LINK(`//challenges.re/#Solutions',`challenges.re/#Solutions').</p>
 _FOOTER()')
 
 
