@@ -211,7 +211,7 @@ _HL2(`Thanks')
 
 _HL2(`Contact me')
 
-<p>_HTML_LINK_AS_IS(`http://yurichev.com/contacts.html')</p>
+<p>dennis(a)yurichev.com</p>
 
 _FOOTER()
 
