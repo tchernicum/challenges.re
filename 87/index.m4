@@ -5,7 +5,8 @@ _HEADER_HL1(`Reverse Engineering challenge #87.')
 <p>This is one of the hardest ever exercises at this website.
 What does this code do?</p>
 
-<p>Hint: the function has been copypasted from the guts of GCC, but in fact, it is present almost in all modern compilers, though, in different forms, but calculating the same value(s).</p>
+<p>Hint: the function has been copypasted from the guts of GCC, but in fact, it is present almost in all modern compilers, though, in different forms, but calculating the same value(s).
+Its function is highly important.</p>
 
 <p>Optimizing GCC 5.4 x86</p>
 
