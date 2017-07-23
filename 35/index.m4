@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #35.')
+_TAGS(`35')
 
 <!-- \RU{Еще один хорошо известный алгоритм. Функция берет на вход 2 значения и возвращает одно.} -->
 

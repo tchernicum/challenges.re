@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #71.')
+_TAGS(`71')
 
 <ul>
 <li>_HTML_LINK(`files/struct_exercise_Linux86.tar',`Linux x86') (GCC 4.8.1 -O3)

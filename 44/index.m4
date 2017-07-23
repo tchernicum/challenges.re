@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #44.')
+_TAGS(`44')
 
 <!--
 \RU{Утилита, шифрующая и дешифрующая файлы, по паролю}

@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #47.')
+_TAGS(`47')
 
 <!--
 \RU{Это достаточно известный алгоритм компрессии данных}

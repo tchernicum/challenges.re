@@ -1,6 +1,7 @@
 m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #16.')
+_TAGS(`16')
 
 <p>Now this is getting harder. Clang did a lot of optimization tricks and this code is heavily optimized for SSE2.
 Nevertheless, the original function is tiny and simple.

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 
 def get_text_file_contents_as_array (filename):
@@ -31,6 +33,14 @@ def save_tag (lst, t, names):
     save_list_as_HTML(f, lst, names)
     f.close()
 
+def add_tags_bar_in_dir(n, tags):
+    s=""
+    for tag in tags:
+        s=s+"<a href=\"https://challenges.re/#tag_"+tag+"\">"+tag+"</a> "
+    f=open(str(n)+"/tags.html", "w")
+    f.write(s)
+    f.close()
+
 tags=["CLR", "JVM", "X86", "X64", "MIPS", "ARM", "ARM64", "SSE", "FPU", "L1", "L2", "L3", "ASM", "EXEC",
         "WINDOWS", "LINUX", "MACOSX", "RASPBERRY", "CRYPTO", "CRACKME"]
 
@@ -44,14 +54,17 @@ for i in range(total):
     n=i+1
     ALL.append(n)
     ls=os.listdir(str(n))
+    tags_for_exercise=[]
     for f in ls:
         if f in tags:
             if f not in lists:
                 lists[f]=[]
             lists[f].append(n)
+            tags_for_exercise.append(f)
         if f=="NAME":
             names[n]="".join(get_text_file_contents_as_array(str(n)+"/"+f))
-    
+    add_tags_bar_in_dir (n, tags_for_exercise)
+
 for tag in lists:
     print tag, lists[tag]
     save_tag (lists[tag], tag, names)

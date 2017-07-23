@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #64.')
+_TAGS(`64')
 
 <p>What does this code do?
 Try to determine the dimensions of the array, at least partially.</p>

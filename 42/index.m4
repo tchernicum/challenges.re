@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #42.')
+_TAGS(`42')
 
 <!--
 \RU{Имеется небольшой исполняемый файл, внутри которого находится довольно известная криптосистема}

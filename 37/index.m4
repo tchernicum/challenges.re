@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #37.')
+_TAGS(`37')
 
 <!--
 \RU{Известная функция. Что она вычисляет? Почему стек переполняется если на вход подать

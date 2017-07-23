@@ -1,6 +1,7 @@
 m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #86.')
+_TAGS(`86')
 
 <p>
 This is utility which does <i>something</i>.

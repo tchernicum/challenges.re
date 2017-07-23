@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #53.')
+_TAGS(`53')
 
 <p>This code, compiled in Linux x86-64 using GCC is crashing while execution (segmentation fault).
 It's also crashed if compiled by MinGW for win32.

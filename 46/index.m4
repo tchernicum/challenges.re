@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #46.')
+_TAGS(`46')
 
 <!--
 \RU{Это очень примитивный игрушечный веб-сервер, поддерживающий только статические файлы, без \ac{CGI},}

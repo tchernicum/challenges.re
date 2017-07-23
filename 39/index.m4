@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #39.')
+_TAGS(`39')
 
 <!--
 \RU{Эта программа запрашивает пароль}

@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #32.')
+_TAGS(`32')
 
 <!-- \RU{Это стандартная функция из библиотек Си. Исходник взят из MSVC 2010.} -->
 

@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #69.')
+_TAGS(`69')
 
 <p>Using the MSDN documentation, find out which flags were used in the MessageBox() win32 function call.</p>
 <!--\RU{Используя документацию \ac{MSDN}, найдите, какие флаги использовались в вызове win32-функции \TT{MessageBox()}.}-->

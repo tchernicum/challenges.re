@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #77.')
+_TAGS(`77')
 
 <p>
 This algorithm is ubiquitos, many end-users uses it almost everyday.

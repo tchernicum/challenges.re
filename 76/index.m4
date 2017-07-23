@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #76.')
+_TAGS(`76')
 
 <p>
 These 3 functions operates on <a href="https://en.wikipedia.org/wiki/Fixed-point_arithmetic">fixed-point numbers</a>.
