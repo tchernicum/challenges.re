@@ -8,6 +8,8 @@ What does this code do?</p>
 <p>Hint: the function has been copypasted from the guts of GCC, but in fact, it is present almost in all modern compilers, though, in different forms, but calculating the same value(s).
 Its function is highly important.</p>
 
+<p>Second hint: f(f(x))=x.</p>
+
 <p>Optimizing GCC 5.4 x86</p>
 
 _PRE_BEGIN
