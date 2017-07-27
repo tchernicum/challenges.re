@@ -19,6 +19,8 @@ Modified version for https://challenges.re/88/
 [4] (unsigned) 61 0x3d 0b111101 ASCII: '='
 _PRE_END
 
+<p>It is well-known function, the article about in in Wikipedia has ~300 input links (<i>what links here</i>).</p>
+
 <p>2) No name known. Try to find it.</p>
 
 <p>Downloads: <a href="https://challenges.re/88/challenge88.rar">Win64</a>,
