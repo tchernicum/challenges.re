@@ -19,7 +19,7 @@ Modified version for https://challenges.re/88/
 [4] (unsigned) 61 0x3d 0b111101 ASCII: '='
 _PRE_END
 
-<p>It is well-known function, the article about in in Wikipedia has ~300 input links (<i>what links here</i>).</p>
+<p>It is a well-known function, the article about in in Wikipedia has ~300 in links (<i>what links here</i>).</p>
 
 <p>2) No name known. Try to find it.</p>
 
