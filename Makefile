@@ -88,6 +88,7 @@ HTML_FILES=1/index.html \
 	85/index.html \
 	86/index.html \
 	87/index.html \
+	88/index.html \
 	index.html 
 
 all:	$(HTML_FILES) 
