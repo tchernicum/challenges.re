@@ -14,7 +14,7 @@ _TAGS(`47')
 -->
 
 <p>It's a well known data compression algorithm.
-However, due to a mistake (or typo), it decompresses incorrectly.
+However, due to a mistake (or typo) in the (closed) source code, it decompresses incorrectly.
 Here we can see this bug in these examples.</p>
 
 <p>This is a text used as a source: _HTML_LINK_AS_IS(`files/test.txt').</p>
