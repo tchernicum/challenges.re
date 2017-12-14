@@ -2,12 +2,12 @@ m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #88.')
 
-<p>This is my <a href="https://github.com/dennis714/progcalc">programmer's calculator</a>, but two undocumented functions has been added.</p>
+<p>This is my <a href="https://github.com/DennisYurichev/progcalc">programmer's calculator</a>, but two undocumented functions has been added.</p>
 
 <p>1) Named secret(), takes two arguments. What does it do? Hint: running it with various arguments can give a hint.</p>
 
 _PRE_BEGIN
-Programmer's calculator <dennis(a)yurichev.com> https://github.com/dennis714/progcalc (Jul 27 2017)
+Programmer's calculator <dennis(a)yurichev.com> https://github.com/DennisYurichev/progcalc (Jul 27 2017)
 Modified version for https://challenges.re/88/
 [1] secret(1,2)
 [1] (unsigned) 4 0x4 0b100

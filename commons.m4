@@ -14,7 +14,7 @@ _MAKE_TITLE(`$1')
 <body>')m4_dnl
 m4_define(`_FOOTER',`</body>
 </html>')m4_dnl
-m4_define(`_BLOG_FOOTER_GITHUB', `<hr><p>This open sourced site and this page in particular is <a href="https://github.com/dennis714/yurichev.com/blob/master/blog/$1/index.m4">hosted on GitHub</a>. Patches, suggestions and comments are welcome.</p>')m4_dnl
+m4_define(`_BLOG_FOOTER_GITHUB', `<hr><p>This open sourced site and this page in particular is <a href="https://github.com/DennisYurichev/yurichev.com/blob/master/blog/$1/index.m4">hosted on GitHub</a>. Patches, suggestions and comments are welcome.</p>')m4_dnl
 m4_define(`_HL1', `<h2>$1</h2>')m4_dnl
 m4_define(`_HL2', `<a class="hl_link" name="$1" href="#$1"><h3>$1</h3></a>')m4_dnl
 m4_define(`_HL3', `<a class="hl_link" name="$1" href="#$1"><h4>$1</h4></a>')m4_dnl

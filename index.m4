@@ -113,7 +113,7 @@ and I eventually decided to keep them all in one single place like this website,
 <!-- Translators are very welcome! -->
 
 <p>
-The source code of this website is also available at GitHub: _HTML_LINK_AS_IS(`https://github.com/dennis714/challenges.re').
+The source code of this website is also available at GitHub: _HTML_LINK_AS_IS(`https://github.com/DennisYurichev/challenges.re').
 I would love to get any suggestions and notices about misspellings and typos.
 </p>
 
