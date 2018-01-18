@@ -150,8 +150,6 @@ _HL3(`How can I measure my performance?')
 <li><p>As far as I can realize, If reverse engineer can solve most of these exercises, he is a hot target for head hunters (programming jobs in general).</p>
 
 <li><p>Those who can solve from ¼ to ½ of all levels, perhaps, can freely apply for reverse engineering/malware analysts/vulnerability research job positions.</p>
-
-<li><p>If you feel even first level is too hard for you, you may probably drop the idea to learn RE.</p>
 </ul>
 
 _HL3(`How can I learn Reverse Engineering?')
