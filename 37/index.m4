@@ -115,7 +115,7 @@ f:
 	ldr	w0, [x29,44]
 	sub	w0, w0, #1
 	mov	w1, 1
-	bl	ack
+	bl	f
 	b	.L3
 .L4:
 	ldr	w0, [x29,44]
@@ -123,10 +123,10 @@ f:
 	ldr	w0, [x29,40]
 	sub	w1, w0, #1
 	ldr	w0, [x29,44]
-	bl	ack
+	bl	f
 	mov	w1, w0
 	mov	w0, w19
-	bl	ack
+	bl	f
 .L3:
 	ldr	x19, [sp,16]
 	ldp	x29, x30, [sp], 48
@@ -140,7 +140,7 @@ _HL2(`Optimizing GCC 4.9.1 (ARM64)')
 <p>Optimizing GCC generates a lot more code. Why?</p>
 
 _PRE_BEGIN
-ack:
+f:
 	stp	x29, x30, [sp, -160]!
 	add	x29, sp, 0
 	stp	d8, d9, [sp,96]
@@ -259,7 +259,7 @@ ack:
 	sub	w1, w1, #1
 	mov	w23, w19
 	sub	w19, w19, #1
-	bl	ack
+	bl	f
 	mov	w1, w0
 	cbnz	w23, .L28
 .L61:
