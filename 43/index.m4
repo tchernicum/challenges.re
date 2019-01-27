@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #43.')
+_TAGS(`43')
 
 <!--
 \RU{Имеется небольшой исполняемый файл, некая утилита}

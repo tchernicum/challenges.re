@@ -1,6 +1,7 @@
 m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #13.')
+_TAGS(`13')
 
 <p>What does this SSE code do?</p>
 

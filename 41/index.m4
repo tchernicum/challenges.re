@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #41.')
+_TAGS(`41')
 
 <!--
 \RU{Эта программа выдает в \gls{stdout} какие-то числа.}

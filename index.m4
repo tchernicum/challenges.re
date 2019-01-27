@@ -18,11 +18,11 @@ _HL2(`All challenges/exercises/problems/tasks')
 _HL2(`By level')
 
 <ul>
-<li><p>Level 1: m4_include(`L1.html') </p>
+<li><p id="tag_L1">Level 1: m4_include(`L1.html') </p>
 
-<li><p>Level 2: m4_include(`L2.html') </p>
+<li><p id="tag_L2">Level 2: m4_include(`L2.html') </p>
 
-<li><p>Level 3: m4_include(`L3.html') </p>
+<li><p id="tag_L3">Level 3: m4_include(`L3.html') </p>
 </ul>
 
 <p>Distinction between levels is very blurred and not very strict, so don't rely on them fully.
@@ -35,7 +35,7 @@ so I can gather some statistics about exercises and promote/demote them.</p>
 _HL2(`By type')
 
 <ul>
-<li><p>Piece of assembly listing: m4_include(`ASM.html') </p>
+<li><p id="tag_ASM">Piece of assembly listing: m4_include(`ASM.html') </p>
 
 <!--
 Почти для всех задач, если не указано иное, два вопроса:
@@ -47,7 +47,7 @@ There are two questions for almost every exercise similar to the following (unle
 1) What does this function do? Try to give one-sentence answer.
 2) Rewrite this function into C/C++.
 
-<li><p>Executable file: m4_include(`EXEC.html') </p>
+<li><p id="tag_EXEC">Executable file: m4_include(`EXEC.html') </p>
 </ul>
 
 <hr>
@@ -55,23 +55,23 @@ There are two questions for almost every exercise similar to the following (unle
 _HL2(`By architecture')
 
 <ul>
-<li><p>X86: m4_include(`X86.html') </p>
+<li><p id="tag_X86">X86: m4_include(`X86.html') </p>
 
-<li><p>X64: m4_include(`X64.html') </p>
+<li><p id="tag_X64">X64: m4_include(`X64.html') </p>
 
-<li><p>X86/X64 SSE: m4_include(`SSE.html') </p>
+<li><p id="tag_SSE">X86/X64 SSE: m4_include(`SSE.html') </p>
 
-<li><p>X86/X64 FPU: m4_include(`FPU.html') </p>
+<li><p id="tag_FPU">X86/X64 FPU: m4_include(`FPU.html') </p>
 
-<li><p>MIPS: m4_include(`MIPS.html') </p>
+<li><p id="tag_MIPS">MIPS: m4_include(`MIPS.html') </p>
 
-<li><p>ARM: m4_include(`ARM.html') </p>
+<li><p id="tag_ARM">ARM: m4_include(`ARM.html') </p>
 
-<li><p>ARM64: m4_include(`ARM64.html') </p>
+<li><p id="tag_ARM64">ARM64: m4_include(`ARM64.html') </p>
 
-<li><p>CLR (.NET): m4_include(`CLR.html') </p>
+<li><p id="tag_CLR">CLR (.NET): m4_include(`CLR.html') </p>
 
-<li><p>JVM (Java Virtual Machine): m4_include(`JVM.html') </p>
+<li><p id="tag_JVM">JVM (Java Virtual Machine): m4_include(`JVM.html') </p>
 </ul>
 
 <hr>
@@ -79,13 +79,13 @@ _HL2(`By architecture')
 _HL2(`By OS')
 
 <ul>
-<li><p>Windows: m4_include(`WINDOWS.html') </p>
+<li><p id="tag_WINDOWS">Windows: m4_include(`WINDOWS.html') </p>
 
-<li><p>Linux: m4_include(`LINUX.html') </p>
+<li><p id="tag_LINUX">Linux: m4_include(`LINUX.html') </p>
 
-<li><p>Mac OS X: m4_include(`MACOSX.html') </p>
+<li><p id="tag_MACOSX">Mac OS X: m4_include(`MACOSX.html') </p>
 
-<li><p>Raspberry Pi Linux: m4_include(`RASPBERRY.html') </p>
+<li><p id="tag_RASPBERRY">Raspberry Pi Linux: m4_include(`RASPBERRY.html') </p>
 </ul>
 
 <hr>
@@ -93,12 +93,12 @@ _HL2(`By OS')
 _HL2(`Other')
 
 <ul>
-<li><p>Amateur cryptography: m4_include(`CRYPTO.html') </p>
+<li><p id="tag_CRYPTO">Amateur cryptography: m4_include(`CRYPTO.html') </p>
 
 <p>This kind of cryptography is very different from professional one, nevertheless,
 it is highly popular in various types of software, so practicing reverse engineers has experience with it (or should have).</p>
 
-<li><p>Crackme/keygenme: m4_include(`CRACKME.html') </p>
+<li><p id="tag_CRACKME">Crackme/keygenme: m4_include(`CRACKME.html') </p>
 </ul>
 
 <hr>
@@ -113,7 +113,7 @@ and I eventually decided to keep them all in one single place like this website,
 <!-- Translators are very welcome! -->
 
 <p>
-The source code of this website is also available at GitHub: _HTML_LINK_AS_IS(`https://github.com/dennis714/challenges.re').
+The source code of this website is also available at GitHub: _HTML_LINK_AS_IS(`https://github.com/DennisYurichev/challenges.re').
 I would love to get any suggestions and notices about misspellings and typos.
 </p>
 
@@ -150,8 +150,6 @@ _HL3(`How can I measure my performance?')
 <li><p>As far as I can realize, If reverse engineer can solve most of these exercises, he is a hot target for head hunters (programming jobs in general).</p>
 
 <li><p>Those who can solve from ¼ to ½ of all levels, perhaps, can freely apply for reverse engineering/malware analysts/vulnerability research job positions.</p>
-
-<li><p>If you feel even first level is too hard for you, you may probably drop the idea to learn RE.</p>
 </ul>
 
 _HL3(`How can I learn Reverse Engineering?')
@@ -194,7 +192,7 @@ Of course, I can't force anyone to do so, I just ask.
 Here is also explanation by one of "the matasano crypto challenges" website authors:
 _HTML_LINK_AS_IS(`https://www.reddit.com/r/haskell/comments/1fa8br/matasano_crypto_challenges_in_haskell/ca8em35').</p>
 
-<p>If you are unsure if you solved some exercise correctly, just ask me by email (<i>dennis(a)yurichev.com</i>)
+<p>If you are unsure if you solved some exercise correctly, just ask me by email (<i>dennis(@)yurichev.com</i>)
 (please also put exercise number in subject line like "exercise #123").
 If you don't want to reveal your name/email, you may use _HTML_LINK(`https://bitmessage.org/',`BitMessage') 
 (my ID is <b>BM-2cUyrfGUDyjuUHyzAA63kq5NHAB2zMo4Q2</b>) and a temporary throw-away ID.</p>
@@ -207,11 +205,11 @@ and/or _HTML_LINK(`https://www.facebook.com/dennis.yurichev.5',`facebook').</p>
 
 _HL2(`Thanks')
 
-<p>Thanks to Diego Boy, Wolfgang Reiter and Niklas for bugfixes.</p>
+<p>Thanks to Diego Boy, Wolfgang Reiter, Nikita Mahilewets and Niklas for bugfixes.</p>
 
 _HL2(`Contact me')
 
-<p>_HTML_LINK_AS_IS(`http://yurichev.com/contacts.html')</p>
+<p>dennis(@)yurichev.com</p>
 
 _FOOTER()
 

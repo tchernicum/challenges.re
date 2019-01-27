@@ -1,6 +1,7 @@
 m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #3.')
+_TAGS(`3')
 
 <p>What does this code do? The function has array of 64 32-bit integers, I removed it in each assembly code snippet to save space.
 The array is:</p>

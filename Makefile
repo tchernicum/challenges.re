@@ -87,10 +87,16 @@ HTML_FILES=1/index.html \
 	84/index.html \
 	85/index.html \
 	86/index.html \
+	87/index.html \
+	88/index.html \
 	index.html 
 
 all:	$(HTML_FILES) 
 	python gen_lists.py
+
+index.html: CLR.html JVM.html X86.html X64.html MIPS.html ARM.html ARM64.html SSE.html FPU.html \
+ 	L1.html L2.html L3.html ASM.html EXEC.html WINDOWS.html LINUX.html MACOSX.html RASPBERRY.html \
+	CRYPTO.html CRACKME.html
 
 clean: 
 	rm $(HTML_FILES)

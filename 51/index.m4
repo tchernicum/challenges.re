@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #51.')
+_TAGS(`51')
 
 <!--
 \RU{Если это скомпилировать в MSVC и запустить, появится три числа. Откуда они берутся? 

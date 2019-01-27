@@ -1,6 +1,7 @@
 m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #11.')
+_TAGS(`11')
 
 <p>This is a somewhat large function (in contrast to the other exercises in this blog), but heavily used nowadays in various software.
 As it can be clearly seen, it uses standard C/C++ functions including strlen() and sscanf().

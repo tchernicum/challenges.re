@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #54.')
+_TAGS(`54')
 
 <!--
 \RU{Почему инструкция}

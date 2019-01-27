@@ -1,6 +1,7 @@
 m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #8.')
+_TAGS(`8')
 
 <p>What does this code do?
 This is one of the busiest algorithms under the hood, though, usually hidden from programmers.

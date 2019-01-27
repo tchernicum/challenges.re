@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #34.')
+_TAGS(`34')
 
 <!--
 \RU{Это довольно известный криптоалгоритм прошлого}

@@ -1,6 +1,7 @@
 m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #23.')
+_TAGS(`23')
 
 <p>
 This is another implementation of a well-known library function, works only in a 64-bit environment.

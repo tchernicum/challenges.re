@@ -1,8 +1,11 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #53.')
+_TAGS(`53')
 
 <p>This code, compiled in Linux x86-64 using GCC is crashing while execution (segmentation fault).
-However, it works in Windows environment compiled by MSVC 2010 x86.
+It's also crashed if compiled by MinGW for win32.
+
+However, it works in Windows environment if compiled by MSVC 2010 x86.
 Why?</p>
 
 <!--
@@ -26,6 +29,8 @@ int main()
         alter_string ("Hello, world!\n");
 };
 _PRE_END
+
+<p>Thanks to Sourav Punoriyar for note about MinGW.</p>
 
 _CHALLENGE_FOOTER()
 

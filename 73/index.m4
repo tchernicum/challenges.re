@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #73.')
+_TAGS(`73')
 
 <p>Yet another crackme (or rather keygenme).</p>
 

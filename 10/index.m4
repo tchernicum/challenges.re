@@ -1,6 +1,7 @@
 m4_include(`commons.m4')
 
 _HEADER_HL1(`Reverse Engineering challenge #10.')
+_TAGS(`10')
 
 <p>This code snippet is short, but tricky.
 What does it do?

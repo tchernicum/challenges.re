@@ -1,5 +1,6 @@
 m4_include(`commons.m4')
 _HEADER_HL1(`Reverse Engineering challenge #45.')
+_TAGS(`45')
 
 <!--
 \RU{Это имитация защиты от копирования использующей ключевой файл}
